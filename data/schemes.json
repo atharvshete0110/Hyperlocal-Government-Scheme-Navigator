@@ -1,0 +1,332 @@
+{
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+      "category": "Agriculture",
+      "description": "Income support to all landholding farmers' families with cultivable land.",
+      "description_hi": "खेती योग्य भूमि वाले सभी भूमिधारक किसान परिवारों को आय सहायता।",
+      "benefits": "₹6,000 per year in three equal installments of ₹2,000 each",
+      "benefits_hi": "₹6,000 प्रति वर्ष तीन समान किस्तों में ₹2,000 प्रत्येक",
+      "eligibility": {
+        "occupation": ["farmer", "agriculturist"],
+        "land_ownership": "yes",
+        "exclusions": ["institutional_landholders", "government_employees", "income_tax_payers"]
+      },
+      "eligibility_text": "Small and marginal farmers who own cultivable land. Institutional landholders, government employees, and income tax payers are excluded.",
+      "eligibility_text_hi": "छोटे और सीमांत किसान जो खेती योग्य भूमि के मालिक हैं। संस्थागत भूमिधारक, सरकारी कर्मचारी और आयकर दाता शामिल नहीं हैं।",
+      "application_process": [
+        "Visit PM-KISAN portal (pmkisan.gov.in)",
+        "Click on 'Farmers Corner' > 'New Farmer Registration'",
+        "Enter Aadhaar number and mobile number",
+        "Fill registration form with land details",
+        "Submit along with required documents"
+      ],
+      "required_documents": ["Aadhaar Card", "Bank Account Details", "Land Ownership Papers"],
+      "official_website": "https://pmkisan.gov.in",
+      "helpline": "155261 / 011-24300606",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "ayushman-bharat",
+      "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+      "name_hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना",
+      "category": "Healthcare",
+      "description": "Health insurance coverage for hospitalization expenses.",
+      "description_hi": "अस्पताल में भर्ती होने के खर्च के लिए स्वास्थ्य बीमा कवरेज।",
+      "benefits": "Health cover of ₹5 lakh per family per year for secondary and tertiary care hospitalization",
+      "benefits_hi": "द्वितीयक और तृतीयक देखभाल अस्पताल में भर्ती के लिए प्रति परिवार ₹5 लाख प्रति वर्ष का स्वास्थ्य कवर",
+      "eligibility": {
+        "economic_status": "below poverty line",
+        "secc_2011": "deprived_categories"
+      },
+      "eligibility_text": "Families identified as per SECC 2011 database, covering about 50 crore beneficiaries (10.74 crore families). Priority given to poor, deprived rural families and identified occupational categories of urban workers.",
+      "eligibility_text_hi": "SECC 2011 डेटाबेस के अनुसार पहचाने गए परिवार, लगभग 50 करोड़ लाभार्थियों (10.74 करोड़ परिवारों) को कवर करते हैं। गरीब, वंचित ग्रामीण परिवारों और शहरी श्रमिकों की पहचान की गई व्यावसायिक श्रेणियों को प्राथमिकता।",
+      "application_process": [
+        "Check eligibility on AB PM-JAY portal",
+        "Visit nearest Common Service Centre (CSC) or empanelled hospital",
+        "Provide Aadhaar/Ration Card for verification",
+        "Get e-card generated on the spot",
+        "Use card for cashless treatment at empanelled hospitals"
+      ],
+      "required_documents": ["Aadhaar Card or Ration Card", "Proof of residence", "SECC 2011 inclusion proof (auto-verified)"],
+      "official_website": "https://pmjay.gov.in",
+      "helpline": "14555",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "pmay-urban",
+      "name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+      "name_hi": "प्रधानमंत्री आवास योजना - शहरी",
+      "category": "Housing",
+      "description": "Housing for all in urban areas with interest subsidy on home loans.",
+      "description_hi": "शहरी क्षेत्रों में सभी के लिए आवास के साथ गृह ऋण पर ब्याज सब्सिडी।",
+      "benefits": "Interest subsidy ranging from ₹2.35 lakh to ₹2.67 lakh on home loans, depending on income category",
+      "benefits_hi": "आय श्रेणी के आधार पर गृह ऋण पर ₹2.35 लाख से ₹2.67 लाख तक की ब्याज सब्सिडी",
+      "eligibility": {
+        "location": "urban",
+        "income_categories": {
+          "EWS": "up to ₹3 lakh per annum",
+          "LIG": "₹3-6 lakh per annum",
+          "MIG-I": "₹6-12 lakh per annum",
+          "MIG-II": "₹12-18 lakh per annum"
+        },
+        "house_ownership": "should not own pucca house in India"
+      },
+      "eligibility_text": "Beneficiaries from EWS, LIG, MIG categories who do not own a pucca house anywhere in India. Adult women must be co-owner of the house.",
+      "eligibility_text_hi": "EWS, LIG, MIG श्रेणियों के लाभार्थी जिनके पास भारत में कहीं भी पक्का मकान नहीं है। वयस्क महिला को घर की सह-स्वामी होना चाहिए।",
+      "application_process": [
+        "Visit PMAY portal (pmaymis.gov.in)",
+        "Select citizen assessment option",
+        "Fill personal details and income information",
+        "Enter property and loan details",
+        "Upload required documents",
+        "Submit application online"
+      ],
+      "required_documents": ["Aadhaar Card", "Income Proof", "Property Documents", "Bank Account Details", "Photograph"],
+      "official_website": "https://pmaymis.gov.in",
+      "helpline": "011-23060484",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "nps",
+      "name": "National Pension Scheme (NPS)",
+      "name_hi": "राष्ट्रीय पेंशन योजना",
+      "category": "Social Security",
+      "description": "Voluntary retirement savings scheme for building retirement corpus.",
+      "description_hi": "सेवानिवृत्ति कोष बनाने के लिए स्वैच्छिक सेवानिवृत्ति बचत योजना।",
+      "benefits": "Market-linked pension corpus with tax benefits under Section 80CCD. Government co-contribution for certain categories.",
+      "benefits_hi": "धारा 80CCD के तहत कर लाभ के साथ बाजार-आधारित पेंशन कोष। कुछ श्रेणियों के लिए सरकारी सह-योगदान।",
+      "eligibility": {
+        "age": "18-70 years",
+        "citizenship": "Indian citizen or NRI"
+      },
+      "eligibility_text": "Any Indian citizen between 18-70 years can join NPS. NRIs are also eligible.",
+      "eligibility_text_hi": "18-70 वर्ष के बीच का कोई भी भारतीय नागरिक NPS में शामिल हो सकता है। NRI भी पात्र हैं।",
+      "application_process": [
+        "Visit NPS portal (enps.nsdl.com) or nearest POP-SP",
+        "Fill subscriber registration form",
+        "Submit KYC documents",
+        "Make initial contribution (minimum ₹500)",
+        "Receive PRAN (Permanent Retirement Account Number)"
+      ],
+      "required_documents": ["Aadhaar Card", "PAN Card", "Bank Account Proof", "Address Proof", "Photograph"],
+      "official_website": "https://www.npscra.nsdl.co.in",
+      "helpline": "1800-110-069",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "pmegp",
+      "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+      "name_hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम",
+      "category": "Employment",
+      "description": "Credit-linked subsidy for setting up new micro-enterprises in manufacturing and service sectors.",
+      "description_hi": "विनिर्माण और सेवा क्षेत्रों में नए सूक्ष्म उद्यम स्थापित करने के लिए क्रेडिट-लिंक्ड सब्सिडी।",
+      "benefits": "15-35% subsidy on project cost. Maximum subsidy: ₹15-25 lakh depending on category and location",
+      "benefits_hi": "परियोजना लागत पर 15-35% सब्सिडी। अधिकतम सब्सिडी: श्रेणी और स्थान के आधार पर ₹15-25 लाख",
+      "eligibility": {
+        "age": "above 18 years",
+        "education": "8th pass minimum",
+        "restrictions": "should not have defaulted on any loan",
+        "categories": "general, SC/ST, OBC, minorities, women, disabled, ex-servicemen"
+      },
+      "eligibility_text": "Any Indian citizen above 18 years with minimum 8th pass education. Special consideration for SC/ST, OBC, minorities, women, physically handicapped, and ex-servicemen.",
+      "eligibility_text_hi": "न्यूनतम 8वीं पास शिक्षा के साथ 18 वर्ष से अधिक आयु का कोई भी भारतीय नागरिक। SC/ST, OBC, अल्पसंख्यकों, महिलाओं, विकलांगों और पूर्व सैनिकों के लिए विशेष विचार।",
+      "application_process": [
+        "Visit PMEGP portal (www.kviconline.gov.in/pmegpeportal)",
+        "Online registration and application",
+        "Submit project proposal",
+        "Interview at KVIC/KVIB/DIC",
+        "Loan sanction from bank",
+        "Project implementation"
+      ],
+      "required_documents": ["Educational certificates", "Experience certificate (if applicable)", "Caste certificate (if applicable)", "Project report", "Aadhaar Card"],
+      "official_website": "https://www.kviconline.gov.in/pmegpeportal",
+      "helpline": "1800-180-6763",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "pmjdy",
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "name_hi": "प्रधानमंत्री जन धन योजना",
+      "category": "Financial Inclusion",
+      "description": "National mission on financial inclusion for comprehensive financial access.",
+      "description_hi": "व्यापक वित्तीय पहुंच के लिए वित्तीय समावेशन पर राष्ट्रीय मिशन।",
+      "benefits": "Zero balance bank account, RuPay debit card, ₹10,000 overdraft facility (after 6 months), accidental insurance cover of ₹2 lakh",
+      "benefits_hi": "शून्य बैलेंस बैंक खाता, RuPay डेबिट कार्ड, ₹10,000 ओवरड्राफ्ट सुविधा (6 महीने बाद), ₹2 लाख की दुर्घटना बीमा कवर",
+      "eligibility": {
+        "age": "above 10 years",
+        "citizenship": "Indian resident",
+        "account": "should not have existing bank account"
+      },
+      "eligibility_text": "Any Indian resident who doesn't have a bank account. Even individuals above 10 years can open account.",
+      "eligibility_text_hi": "कोई भी भारतीय निवासी जिसके पास बैंक खाता नहीं है। 10 वर्ष से अधिक आयु के व्यक्ति भी खाता खोल सकते हैं।",
+      "application_process": [
+        "Visit nearest bank branch",
+        "Fill account opening form",
+        "Submit Aadhaar card for KYC",
+        "Get account opened instantly",
+        "Receive RuPay debit card and passbook"
+      ],
+      "required_documents": ["Aadhaar Card (for KYC)", "Passport size photograph"],
+      "official_website": "https://pmjdy.gov.in",
+      "helpline": "1800-11-0001 / 1800-180-1111",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "pmuy",
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "name_hi": "प्रधानमंत्री उज्ज्वला योजना",
+      "category": "Welfare",
+      "description": "Free LPG connections to BPL households to safeguard health of women and children.",
+      "description_hi": "महिलाओं और बच्चों के स्वास्थ्य की रक्षा के लिए BPL परिवारों को मुफ्त LPG कनेक्शन।",
+      "benefits": "Free LPG connection with ₹1,600 support. Option for EMI for stove and first refill.",
+      "benefits_hi": "₹1,600 सहायता के साथ मुफ्त LPG कनेक्शन। स्टोव और पहले रिफिल के लिए EMI का विकल्प।",
+      "eligibility": {
+        "economic_status": "BPL family",
+        "gender": "female member as applicant",
+        "age": "above 18 years",
+        "restrictions": "no LPG connection in household"
+      },
+      "eligibility_text": "Women from BPL households who are above 18 years and do not have LPG connection in their household. Priority to SC/ST households.",
+      "eligibility_text_hi": "BPL परिवारों की महिलाएं जो 18 वर्ष से अधिक आयु की हैं और जिनके घर में LPG कनेक्शन नहीं है। SC/ST परिवारों को प्राथमिकता।",
+      "application_process": [
+        "Visit nearest LPG distributor",
+        "Fill PMUY application form",
+        "Submit documents (BPL card, Aadhaar, bank details)",
+        "Get verification done",
+        "Receive LPG connection at home"
+      ],
+      "required_documents": ["BPL card/Ration card", "Aadhaar Card", "Bank Account details", "Address proof", "Photograph"],
+      "official_website": "https://pmuy.gov.in",
+      "helpline": "1906",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "atal-pension",
+      "name": "Atal Pension Yojana (APY)",
+      "name_hi": "अटल पेंशन योजना",
+      "category": "Social Security",
+      "description": "Pension scheme for unorganized sector workers.",
+      "description_hi": "असंगठित क्षेत्र के श्रमिकों के लिए पेंशन योजना।",
+      "benefits": "Guaranteed pension of ₹1,000 to ₹5,000 per month after 60 years, depending on contribution",
+      "benefits_hi": "योगदान के आधार पर 60 वर्ष के बाद ₹1,000 से ₹5,000 प्रति माह की गारंटीड पेंशन",
+      "eligibility": {
+        "age": "18-40 years",
+        "bank_account": "savings bank account",
+        "restrictions": "not income tax payer, not covered under EPF/EPS/NPS"
+      },
+      "eligibility_text": "Indian citizens between 18-40 years with savings bank account. Should not be income tax payer or covered under EPF/EPS.",
+      "eligibility_text_hi": "बचत बैंक खाते के साथ 18-40 वर्ष के बीच के भारतीय नागरिक। आयकर दाता नहीं होना चाहिए या EPF/EPS के तहत कवर नहीं होना चाहिए।",
+      "application_process": [
+        "Visit your bank branch where you have savings account",
+        "Fill APY registration form",
+        "Choose pension amount (₹1,000 to ₹5,000)",
+        "Provide Aadhaar and mobile number",
+        "Activate auto-debit for monthly contribution"
+      ],
+      "required_documents": ["Aadhaar Card", "Savings Bank Account", "Mobile number"],
+      "official_website": "https://npscra.nsdl.co.in/scheme-details/APY.php",
+      "helpline": "1800-110-069",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "skill-india",
+      "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+      "name_hi": "प्रधानमंत्री कौशल विकास योजना",
+      "category": "Skill Development",
+      "description": "Skill training and certification program for Indian youth.",
+      "description_hi": "भारतीय युवाओं के लिए कौशल प्रशिक्षण और प्रमाणन कार्यक्रम।",
+      "benefits": "Free skill training with government certification, average monetary reward of ₹8,000 on assessment, placement assistance",
+      "benefits_hi": "सरकारी प्रमाणन के साथ मुफ्त कौशल प्रशिक्षण, मूल्यांकन पर औसत ₹8,000 का मौद्रिक पुरस्कार, नियुक्ति सहायता",
+      "eligibility": {
+        "age": "15-45 years",
+        "education": "school dropout or unemployed",
+        "citizenship": "Indian citizen"
+      },
+      "eligibility_text": "Indian youth between 15-45 years who are school dropouts or unemployed. Focus on providing industry-relevant skills.",
+      "eligibility_text_hi": "15-45 वर्ष के बीच के भारतीय युवा जो स्कूल ड्रॉपआउट हैं या बेरोजगार हैं। उद्योग-प्रासंगिक कौशल प्रदान करने पर ध्यान।",
+      "application_process": [
+        "Visit Skill India portal (www.pmkvyofficial.org)",
+        "Find training center near you",
+        "Register with your details",
+        "Choose course/trade",
+        "Complete training and assessment",
+        "Get government certification"
+      ],
+      "required_documents": ["Aadhaar Card", "Bank Account Details", "Photograph", "Educational certificates"],
+      "official_website": "https://www.pmkvyofficial.org",
+      "helpline": "08800055555",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "mudra-yojana",
+      "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "name_hi": "प्रधानमंत्री मुद्रा योजना",
+      "category": "Financial Inclusion",
+      "description": "Loans to micro and small enterprises for income-generating activities.",
+      "description_hi": "आय-सृजन गतिविधियों के लिए सूक्ष्म और लघु उद्यमों को ऋण।",
+      "benefits": "Loans up to ₹10 lakh without collateral in three categories: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), Tarun (₹5,00,001 to ₹10 lakh)",
+      "benefits_hi": "तीन श्रेणियों में बिना गारंटी ₹10 लाख तक का ऋण: शिशु (₹50,000 तक), किशोर (₹50,001 से ₹5 लाख), तरुण (₹5,00,001 से ₹10 लाख)",
+      "eligibility": {
+        "business": "small/micro enterprise",
+        "activities": "manufacturing, trading, services",
+        "restrictions": "income-generating activities only"
+      },
+      "eligibility_text": "Small business owners, shopkeepers, artisans, vendors, and service providers engaged in income-generating activities. Existing businesses can also apply for expansion.",
+      "eligibility_text_hi": "आय-सृजन गतिविधियों में लगे छोटे व्यवसाय मालिक, दुकानदार, कारीगर, विक्रेता और सेवा प्रदाता। मौजूदा व्यवसाय भी विस्तार के लिए आवेदन कर सकते हैं।",
+      "application_process": [
+        "Visit Mudra portal or nearest bank/NBFC/MFI",
+        "Fill MUDRA loan application",
+        "Submit business plan and required documents",
+        "Bank processes application",
+        "Loan sanctioned and disbursed"
+      ],
+      "required_documents": ["Identity proof", "Address proof", "Business proof", "Income proof", "Quotation for asset purchase"],
+      "official_website": "https://www.mudra.org.in",
+      "helpline": "1800-180-1111",
+      "state_specific": false,
+      "active": true
+    },
+    {
+      "id": "swachh-bharat-toilet",
+      "name": "Swachh Bharat Mission - Individual Household Latrine",
+      "name_hi": "स्वच्छ भारत मिशन - व्यक्तिगत घरेलू शौचालय",
+      "category": "Sanitation",
+      "description": "Financial assistance for construction of toilets in rural households.",
+      "description_hi": "ग्रामीण घरों में शौचालयों के निर्माण के लिए वित्तीय सहायता।",
+      "benefits": "₹12,000 incentive for toilet construction in rural areas",
+      "benefits_hi": "ग्रामीण क्षेत्रों में शौचालय निर्माण के लिए ₹12,000 की प्रोत्साहन राशि",
+      "eligibility": {
+        "location": "rural area",
+        "toilet": "should not have functional toilet",
+        "household": "BPL or APL"
+      },
+      "eligibility_text": "Rural households without functional toilets. Priority to SC/ST, small and marginal farmers, landless laborers, and physically handicapped.",
+      "eligibility_text_hi": "कार्यात्मक शौचालय के बिना ग्रामीण घर। SC/ST, छोटे और सीमांत किसानों, भूमिहीन मजदूरों और शारीरिक रूप से विकलांगों को प्राथमिकता।",
+      "application_process": [
+        "Contact village Panchayat or Sarpanch",
+        "Fill application form",
+        "Submit to Block/Panchayat office",
+        "Get approval for construction",
+        "Build toilet as per specifications",
+        "Receive incentive after verification"
+      ],
+      "required_documents": ["Aadhaar Card", "Address proof", "BPL/APL certificate", "Bank account details", "Photograph"],
+      "official_website": "https://swachhbharatmission.gov.in",
+      "helpline": "1800-11-3003",
+      "state_specific": false,
+      "active": true
+    }
+  ]
+}
